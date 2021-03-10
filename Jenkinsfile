@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = "deedubb/take-home-exam"
-        registryCredential = "dockerhub"
+        registryCredential = "deedubb-dockerhub"
         dockerImage = ""
     }
     agent any
