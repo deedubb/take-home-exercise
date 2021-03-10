@@ -1,13 +1,13 @@
 pipeline {
     environment {
-        registry = "continuouslee/person-api"
+        registry = "danewatson/person-api"
         registryCredential = "dockerhub"
         dockerImage = ""
     }
     agent any
     tools { 
-        maven 'mvn361' 
-        jdk 'jdk8' 
+        maven 'Maven 3.6.3' 
+        jdk 'openjdk 11.0.10' 
     }
     stages {
         stage ('Initialize') {
