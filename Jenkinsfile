@@ -6,8 +6,8 @@ pipeline {
     }
     agent any
     tools { 
-        maven '/usr/local/maven' 
-        jdk 'openjdk 11.0.10' 
+        maven 'mvn_363' 
+        jdk 'openjdk_11' 
     }
     stages {
         stage ('Initialize') {
