@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "deedubb/person-api"
+        registry = "deedubb/take-home-exam"
         registryCredential = "dockerhub"
         dockerImage = ""
     }
